@@ -1,0 +1,9 @@
+/home/azzawillo/git/41068-Robotics-Studio-1/build/CMakeFiles/uninstall.dir
+/home/azzawillo/git/41068-Robotics-Studio-1/build/CMakeFiles/41068_ignition_bringup_uninstall.dir
+/home/azzawillo/git/41068-Robotics-Studio-1/build/CMakeFiles/test.dir
+/home/azzawillo/git/41068-Robotics-Studio-1/build/CMakeFiles/edit_cache.dir
+/home/azzawillo/git/41068-Robotics-Studio-1/build/CMakeFiles/rebuild_cache.dir
+/home/azzawillo/git/41068-Robotics-Studio-1/build/CMakeFiles/list_install_components.dir
+/home/azzawillo/git/41068-Robotics-Studio-1/build/CMakeFiles/install.dir
+/home/azzawillo/git/41068-Robotics-Studio-1/build/CMakeFiles/install/local.dir
+/home/azzawillo/git/41068-Robotics-Studio-1/build/CMakeFiles/install/strip.dir
