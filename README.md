@@ -2,6 +2,8 @@
 
 Bringup for *41068 Robotics Studio I*. Launches a Husky robot in a custom simulation world with trees and grass. We use **ROS2 Humble** and **Ignition Gazebo Fortress**.
 
+Added 05/09/2025: Also included a drone robot ("parrot"). Scroll down for instructions specifically for the drone.
+
 Worlds are build from [Gazebo Fuel](https://app.gazebosim.org/fuel/models).
 
 ## Installation
@@ -66,6 +68,26 @@ Now install this package:
   ```bash
   ros2 run teleop_twist_keyboard teleop_twist_keyboard
   ```
+
+## Drone (added 05/09/2025)
+
+By popular request, I've added a simple drone to the package, which requires a few modifications to get running:
+
+* In the world file (large_demo.sdf or simple_trees.sdf, etc.), set the gravity to 0, so the drone doesn't fall out of the sky. I'll let you work out how to do that.
+
+* I've created a separate launch file for the drone, which is almost the same, except spawns a "parrot" drone instead of the husky:
+  ```bash
+  ros2 launch 41068_ignition_bringup 41068_ignition_drone.launch.py slam:=true nav2:=true rviz:=true world:=large_demo
+  ```
+
+* At the moment, the drone will just fly at a fixed altitude. You can change the altitude in 41068_ignition_drone.launch.py. Find the `robot_spawner` node, and change change the `z` parameter, which is height above the ground where it is spawned.
+
+* The drone's camera is setup to tilt 45 degrees downwards (looking slightly down towards the ground). You can change this in `urdf_drone/parrot.urdf.xacro`, find the `camera_joint` and change the "pitch" (you'll need to workout how to do this exactly).
+
+* Since the drone has a very hard time navigating through the leaves of the trees, I've disabled the collisions of the drones. So at the moment, it is allowed to fly through objects. You can enable collisions by uncommenting the `collision` field in `urdf_drone/parrot.urdf.xacro`. Note that the default navigation stack doesn't work well in this situation, so you will need to further develop the collision avoidance planners for this new challenge!
+
+* At the moment, you can only run the drone or the husky, not both. If you wish to spawn both at the same time, then you'll need to figure out how :)
+
 
 
 

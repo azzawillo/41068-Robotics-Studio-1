@@ -10,10 +10,17 @@ find_package(ament_cmake REQUIRED)
 
 find_package(ros_ign_interfaces REQUIRED)
 
+# scripts
+install(PROGRAMS
+  scripts/one_goal_explorer.py scripts/pose_to_nav2_action.py
+  DESTINATION lib/${PROJECT_NAME}
+)
+
 install(
-  DIRECTORY config launch models urdf worlds
+  DIRECTORY config launch models urdf worlds urdf_drone
   DESTINATION share/${PROJECT_NAME}
 )
+
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
