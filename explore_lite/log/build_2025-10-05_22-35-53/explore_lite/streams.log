@@ -1,0 +1,103 @@
+[0.015s] Invoking command in '/home/azzawillo/41068_ws/src/explore_lite/build/explore_lite': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/azzawillo/41068_ws/src/explore_lite/explore -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/azzawillo/41068_ws/src/explore_lite/install/explore_lite
+[0.319s] -- The C compiler identification is GNU 11.4.0
+[1.735s] -- The CXX compiler identification is GNU 11.4.0
+[2.760s] -- Detecting C compiler ABI info
+[3.015s] -- Detecting C compiler ABI info - done
+[3.020s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.021s] -- Detecting C compile features
+[3.022s] -- Detecting C compile features - done
+[3.026s] -- Detecting CXX compiler ABI info
+[3.252s] -- Detecting CXX compiler ABI info - done
+[3.257s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.257s] -- Detecting CXX compile features
+[3.257s] -- Detecting CXX compile features - done
+[3.258s] -- BuilD for ROS2: humble
+[3.276s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.416s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.480s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.533s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[3.742s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.749s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.760s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.778s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.803s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.880s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.885s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[6.419s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[7.450s] -- Found FastRTPS: /opt/ros/humble/include  
+[9.681s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[9.705s] -- Looking for pthread.h
+[9.819s] -- Looking for pthread.h - found
+[9.819s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.941s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[9.942s] -- Found Threads: TRUE  
+[10.008s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[10.041s] -- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)
+[10.154s] -- Found tf2_geometry_msgs: 0.25.16 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[10.192s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[10.194s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[10.194s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[10.199s] -- Found nav2_msgs: 1.1.18 (/opt/ros/humble/share/nav2_msgs/cmake)
+[10.243s] -- Found map_msgs: 2.1.0 (/opt/ros/humble/share/map_msgs/cmake)
+[10.261s] -- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[10.284s] -- Found nav2_costmap_2d: 1.1.18 (/opt/ros/humble/share/nav2_costmap_2d/cmake)
+[12.151s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[12.222s] -- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[12.225s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[12.243s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[12.243s] -- Configured cppcheck include dirs: /home/azzawillo/41068_ws/src/explore_lite/explore/include;$<BUILD_INTERFACE:/home/azzawillo/41068_ws/src/explore_lite/explore/include>
+[12.243s] -- Configured cppcheck exclude dirs and/or files: 
+[12.244s] -- Added test 'flake8' to check Python code syntax and style conventions
+[12.246s] -- Added test 'lint_cmake' to check CMake code style
+[12.247s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[12.248s] -- Added test 'uncrustify' to check C / C++ code style
+[12.248s] -- Configured uncrustify additional arguments: 
+[12.249s] -- Added test 'xmllint' to check XML markup files
+[12.253s] -- Configuring done
+[12.396s] -- Generating done
+[12.406s] -- Build files have been written to: /home/azzawillo/41068_ws/src/explore_lite/build/explore_lite
+[12.423s] Invoked command in '/home/azzawillo/41068_ws/src/explore_lite/build/explore_lite' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/azzawillo/41068_ws/src/explore_lite/explore -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/azzawillo/41068_ws/src/explore_lite/install/explore_lite
+[12.425s] Invoking command in '/home/azzawillo/41068_ws/src/explore_lite/build/explore_lite': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/azzawillo/41068_ws/src/explore_lite/build/explore_lite -- -j12 -l12
+[12.466s] [ 20%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[12.466s] [ 30%] [32mBuilding CXX object CMakeFiles/explore.dir/src/frontier_search.cpp.o[0m
+[12.466s] [ 20%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[12.467s] [ 40%] [32mBuilding CXX object CMakeFiles/explore.dir/src/explore.cpp.o[0m
+[12.467s] [ 50%] [32mBuilding CXX object CMakeFiles/explore.dir/src/costmap_client.cpp.o[0m
+[13.145s] [ 60%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[13.188s] [ 60%] Built target gtest_main
+[15.403s] [ 70%] [32m[1mLinking CXX static library libgtest.a[0m
+[15.451s] [ 70%] Built target gtest
+[15.470s] [ 80%] [32mBuilding CXX object CMakeFiles/test_explore.dir/test/test_explore.cpp.o[0m
+[16.484s] [ 90%] [32m[1mLinking CXX executable test_explore[0m
+[17.396s] [ 90%] Built target test_explore
+[23.157s] [100%] [32m[1mLinking CXX executable explore[0m
+[24.845s] [100%] Built target explore
+[24.857s] Invoked command in '/home/azzawillo/41068_ws/src/explore_lite/build/explore_lite' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/azzawillo/41068_ws/src/explore_lite/build/explore_lite -- -j12 -l12
+[24.865s] Invoking command in '/home/azzawillo/41068_ws/src/explore_lite/build/explore_lite': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/azzawillo/41068_ws/src/explore_lite/build/explore_lite
+[24.871s] -- Install configuration: ""
+[24.871s] -- Execute custom install script
+[24.872s] -- Symlinking: /home/azzawillo/41068_ws/src/explore_lite/install/explore_lite/include/explore//costmap_client.h
+[24.879s] -- Symlinking: /home/azzawillo/41068_ws/src/explore_lite/install/explore_lite/include/explore//costmap_tools.h
+[24.886s] -- Symlinking: /home/azzawillo/41068_ws/src/explore_lite/install/explore_lite/include/explore//explore.h
+[24.893s] -- Symlinking: /home/azzawillo/41068_ws/src/explore_lite/install/explore_lite/include/explore//frontier_search.h
+[24.901s] -- Symlinking: /home/azzawillo/41068_ws/src/explore_lite/install/explore_lite/share/explore_lite/config/params.yaml
+[24.909s] -- Symlinking: /home/azzawillo/41068_ws/src/explore_lite/install/explore_lite/share/explore_lite/config/params_costmap.yaml
+[24.916s] -- Symlinking: /home/azzawillo/41068_ws/src/explore_lite/install/explore_lite/share/explore_lite/launch/explore.launch.py
+[24.924s] -- Symlinking: /home/azzawillo/41068_ws/src/explore_lite/install/explore_lite/lib/explore_lite/explore
+[24.931s] -- Symlinking: /home/azzawillo/41068_ws/src/explore_lite/install/explore_lite/share/ament_index/resource_index/package_run_dependencies/explore_lite
+[24.938s] -- Symlinking: /home/azzawillo/41068_ws/src/explore_lite/install/explore_lite/share/ament_index/resource_index/parent_prefix_path/explore_lite
+[24.946s] -- Symlinking: /home/azzawillo/41068_ws/src/explore_lite/install/explore_lite/share/explore_lite/environment/ament_prefix_path.sh
+[24.953s] -- Symlinking: /home/azzawillo/41068_ws/src/explore_lite/install/explore_lite/share/explore_lite/environment/ament_prefix_path.dsv
+[24.960s] -- Symlinking: /home/azzawillo/41068_ws/src/explore_lite/install/explore_lite/share/explore_lite/environment/path.sh
+[24.967s] -- Symlinking: /home/azzawillo/41068_ws/src/explore_lite/install/explore_lite/share/explore_lite/environment/path.dsv
+[24.974s] -- Symlinking: /home/azzawillo/41068_ws/src/explore_lite/install/explore_lite/share/explore_lite/local_setup.bash
+[24.981s] -- Symlinking: /home/azzawillo/41068_ws/src/explore_lite/install/explore_lite/share/explore_lite/local_setup.sh
+[24.988s] -- Symlinking: /home/azzawillo/41068_ws/src/explore_lite/install/explore_lite/share/explore_lite/local_setup.zsh
+[24.996s] -- Symlinking: /home/azzawillo/41068_ws/src/explore_lite/install/explore_lite/share/explore_lite/local_setup.dsv
+[25.003s] -- Symlinking: /home/azzawillo/41068_ws/src/explore_lite/install/explore_lite/share/explore_lite/package.dsv
+[25.010s] -- Symlinking: /home/azzawillo/41068_ws/src/explore_lite/install/explore_lite/share/ament_index/resource_index/packages/explore_lite
+[25.018s] -- Symlinking: /home/azzawillo/41068_ws/src/explore_lite/install/explore_lite/share/explore_lite/cmake/ament_cmake_export_include_directories-extras.cmake
+[25.025s] -- Symlinking: /home/azzawillo/41068_ws/src/explore_lite/install/explore_lite/share/explore_lite/cmake/explore_liteConfig.cmake
+[25.032s] -- Symlinking: /home/azzawillo/41068_ws/src/explore_lite/install/explore_lite/share/explore_lite/cmake/explore_liteConfig-version.cmake
+[25.040s] -- Symlinking: /home/azzawillo/41068_ws/src/explore_lite/install/explore_lite/share/explore_lite/package.xml
+[25.049s] Invoked command in '/home/azzawillo/41068_ws/src/explore_lite/build/explore_lite' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/azzawillo/41068_ws/src/explore_lite/build/explore_lite

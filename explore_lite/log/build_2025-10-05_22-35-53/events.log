@@ -1,0 +1,353 @@
+[0.000000] (-) TimerEvent: {}
+[0.001221] (-) JobUnselected: {'identifier': 'multirobot_map_merge'}
+[0.001303] (explore_lite) JobQueued: {'identifier': 'explore_lite', 'dependencies': OrderedDict()}
+[0.001334] (explore_lite) JobStarted: {'identifier': 'explore_lite'}
+[0.014355] (explore_lite) JobProgress: {'identifier': 'explore_lite', 'progress': 'cmake'}
+[0.015414] (explore_lite) Command: {'cmd': ['/usr/bin/cmake', '/home/azzawillo/41068_ws/src/explore_lite/explore', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/azzawillo/41068_ws/src/explore_lite/install/explore_lite'], 'cwd': '/home/azzawillo/41068_ws/src/explore_lite/build/explore_lite', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'azzawillo'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/home/azzawillo/41068_ws/install/multirobot_map_merge/lib:/home/azzawillo/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib:/home/azzawillo/ros2_ws/install/a3_submission/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('HOME', '/home/azzawillo'), ('OLDPWD', '/home/azzawillo/41068_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/azzawillo/41068_ws/install:/home/azzawillo/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'azzawillo'), ('NAME', 'MSI'), ('WSL_INTEROP', '/run/WSL/8035_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/MATLAB/R2024b/runtime/win64:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Program Files/usbipd-win/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Azzaw/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Azzaw/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', '6c259d83-ef0f-4db2-b6ea-e24674b09732'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/azzawillo/41068_ws/install/multirobot_map_merge:/home/azzawillo/41068_ws/install/41068_ignition_bringup:/home/azzawillo/41068_ws/install/explore_lite:/home/azzawillo/ros2_ws/install/week11_quad:/home/azzawillo/ros2_ws/install/week10_quad:/home/azzawillo/ros2_ws/install/week10_laser:/home/azzawillo/ros2_ws/install/srv_client_checks:/home/azzawillo/ros2_ws/install/quiz5:/home/azzawillo/ros2_ws/install/grid_example:/home/azzawillo/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/azzawillo/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/azzawillo/ros2_ws/install/a3_support:/home/azzawillo/ros2_ws/install/a3_submission:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11/'), ('PWD', '/home/azzawillo/41068_ws/src/explore_lite/build/explore_lite'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/azzawillo/41068_ws/install/multirobot_map_merge:/home/azzawillo/41068_ws/install/41068_ignition_bringup:/home/azzawillo/41068_ws/install/explore_lite:/home/azzawillo/ros2_ws/install/week11_quad:/home/azzawillo/ros2_ws/install/week10_quad:/home/azzawillo/ros2_ws/install/week10_laser:/home/azzawillo/ros2_ws/install/srv_client_checks:/home/azzawillo/ros2_ws/install/quiz5:/home/azzawillo/ros2_ws/install/grid_example:/home/azzawillo/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/azzawillo/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/azzawillo/ros2_ws/install/a3_support:/home/azzawillo/ros2_ws/install/a3_submission:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.099325] (-) TimerEvent: {}
+[0.206161] (-) TimerEvent: {}
+[0.307263] (-) TimerEvent: {}
+[0.320327] (explore_lite) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.408755] (-) TimerEvent: {}
+[0.509722] (-) TimerEvent: {}
+[0.617881] (-) TimerEvent: {}
+[0.718923] (-) TimerEvent: {}
+[0.820070] (-) TimerEvent: {}
+[0.929975] (-) TimerEvent: {}
+[1.035196] (-) TimerEvent: {}
+[1.144590] (-) TimerEvent: {}
+[1.249057] (-) TimerEvent: {}
+[1.351343] (-) TimerEvent: {}
+[1.452351] (-) TimerEvent: {}
+[1.553294] (-) TimerEvent: {}
+[1.654674] (-) TimerEvent: {}
+[1.736625] (explore_lite) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.754754] (-) TimerEvent: {}
+[1.860566] (-) TimerEvent: {}
+[1.965413] (-) TimerEvent: {}
+[2.074461] (-) TimerEvent: {}
+[2.183519] (-) TimerEvent: {}
+[2.292972] (-) TimerEvent: {}
+[2.401984] (-) TimerEvent: {}
+[2.510789] (-) TimerEvent: {}
+[2.616976] (-) TimerEvent: {}
+[2.726295] (-) TimerEvent: {}
+[2.761596] (explore_lite) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.828068] (-) TimerEvent: {}
+[2.937130] (-) TimerEvent: {}
+[3.015899] (explore_lite) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.021582] (explore_lite) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.022702] (explore_lite) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.023477] (explore_lite) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.027700] (explore_lite) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.038048] (-) TimerEvent: {}
+[3.146799] (-) TimerEvent: {}
+[3.249087] (-) TimerEvent: {}
+[3.252845] (explore_lite) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.258029] (explore_lite) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.258398] (explore_lite) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.258632] (explore_lite) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.259400] (explore_lite) StdoutLine: {'line': b'-- BuilD for ROS2: humble\n'}
+[3.277049] (explore_lite) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.349437] (-) TimerEvent: {}
+[3.416912] (explore_lite) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.452098] (-) TimerEvent: {}
+[3.481295] (explore_lite) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[3.533749] (explore_lite) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[3.553735] (-) TimerEvent: {}
+[3.662514] (-) TimerEvent: {}
+[3.742739] (explore_lite) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.749962] (explore_lite) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.761294] (explore_lite) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.762671] (-) TimerEvent: {}
+[3.778924] (explore_lite) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.804075] (explore_lite) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.863480] (-) TimerEvent: {}
+[3.881435] (explore_lite) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.886733] (explore_lite) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.965838] (-) TimerEvent: {}
+[4.070297] (-) TimerEvent: {}
+[4.174889] (-) TimerEvent: {}
+[4.279344] (-) TimerEvent: {}
+[4.381750] (-) TimerEvent: {}
+[4.486050] (-) TimerEvent: {}
+[4.588716] (-) TimerEvent: {}
+[4.693604] (-) TimerEvent: {}
+[4.799297] (-) TimerEvent: {}
+[4.901456] (-) TimerEvent: {}
+[5.009691] (-) TimerEvent: {}
+[5.111255] (-) TimerEvent: {}
+[5.220505] (-) TimerEvent: {}
+[5.329744] (-) TimerEvent: {}
+[5.434497] (-) TimerEvent: {}
+[5.544080] (-) TimerEvent: {}
+[5.645535] (-) TimerEvent: {}
+[5.751060] (-) TimerEvent: {}
+[5.859903] (-) TimerEvent: {}
+[5.964908] (-) TimerEvent: {}
+[6.074099] (-) TimerEvent: {}
+[6.183194] (-) TimerEvent: {}
+[6.292136] (-) TimerEvent: {}
+[6.392813] (-) TimerEvent: {}
+[6.419746] (explore_lite) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[6.499027] (-) TimerEvent: {}
+[6.603256] (-) TimerEvent: {}
+[6.711935] (-) TimerEvent: {}
+[6.812718] (-) TimerEvent: {}
+[6.913232] (-) TimerEvent: {}
+[7.014128] (-) TimerEvent: {}
+[7.122813] (-) TimerEvent: {}
+[7.231467] (-) TimerEvent: {}
+[7.340114] (-) TimerEvent: {}
+[7.444130] (-) TimerEvent: {}
+[7.450972] (explore_lite) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[7.552135] (-) TimerEvent: {}
+[7.654677] (-) TimerEvent: {}
+[7.763366] (-) TimerEvent: {}
+[7.872073] (-) TimerEvent: {}
+[7.980842] (-) TimerEvent: {}
+[8.089168] (-) TimerEvent: {}
+[8.198036] (-) TimerEvent: {}
+[8.306716] (-) TimerEvent: {}
+[8.407967] (-) TimerEvent: {}
+[8.509515] (-) TimerEvent: {}
+[8.618182] (-) TimerEvent: {}
+[8.726859] (-) TimerEvent: {}
+[8.835523] (-) TimerEvent: {}
+[8.935959] (-) TimerEvent: {}
+[9.039014] (-) TimerEvent: {}
+[9.139670] (-) TimerEvent: {}
+[9.244960] (-) TimerEvent: {}
+[9.345413] (-) TimerEvent: {}
+[9.449724] (-) TimerEvent: {}
+[9.558396] (-) TimerEvent: {}
+[9.660419] (-) TimerEvent: {}
+[9.681948] (explore_lite) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[9.706601] (explore_lite) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[9.762943] (-) TimerEvent: {}
+[9.820492] (explore_lite) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[9.820659] (explore_lite) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[9.866681] (-) TimerEvent: {}
+[9.942531] (explore_lite) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[9.943370] (explore_lite) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[9.968728] (-) TimerEvent: {}
+[10.008748] (explore_lite) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[10.042101] (explore_lite) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[10.071053] (-) TimerEvent: {}
+[10.154821] (explore_lite) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.16 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[10.172505] (-) TimerEvent: {}
+[10.193350] (explore_lite) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[10.195182] (explore_lite) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[10.195507] (explore_lite) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[10.199830] (explore_lite) StdoutLine: {'line': b'-- Found nav2_msgs: 1.1.18 (/opt/ros/humble/share/nav2_msgs/cmake)\n'}
+[10.244577] (explore_lite) StdoutLine: {'line': b'-- Found map_msgs: 2.1.0 (/opt/ros/humble/share/map_msgs/cmake)\n'}
+[10.262217] (explore_lite) StdoutLine: {'line': b'-- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[10.273449] (-) TimerEvent: {}
+[10.285028] (explore_lite) StdoutLine: {'line': b'-- Found nav2_costmap_2d: 1.1.18 (/opt/ros/humble/share/nav2_costmap_2d/cmake)\n'}
+[10.380943] (-) TimerEvent: {}
+[10.488075] (-) TimerEvent: {}
+[10.596875] (-) TimerEvent: {}
+[10.697969] (-) TimerEvent: {}
+[10.801921] (-) TimerEvent: {}
+[10.906111] (-) TimerEvent: {}
+[11.006586] (-) TimerEvent: {}
+[11.110145] (-) TimerEvent: {}
+[11.212967] (-) TimerEvent: {}
+[11.316851] (-) TimerEvent: {}
+[11.418853] (-) TimerEvent: {}
+[11.520424] (-) TimerEvent: {}
+[11.626538] (-) TimerEvent: {}
+[11.736153] (-) TimerEvent: {}
+[11.842540] (-) TimerEvent: {}
+[11.951279] (-) TimerEvent: {}
+[12.059965] (-) TimerEvent: {}
+[12.151763] (explore_lite) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[12.160877] (-) TimerEvent: {}
+[12.222864] (explore_lite) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[12.226601] (explore_lite) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[12.244237] (explore_lite) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[12.244620] (explore_lite) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/azzawillo/41068_ws/src/explore_lite/explore/include;$<BUILD_INTERFACE:/home/azzawillo/41068_ws/src/explore_lite/explore/include>\n'}
+[12.244702] (explore_lite) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[12.245696] (explore_lite) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[12.246896] (explore_lite) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[12.247790] (explore_lite) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[12.249043] (explore_lite) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[12.249121] (explore_lite) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[12.249815] (explore_lite) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[12.253853] (explore_lite) StdoutLine: {'line': b'-- Configuring done\n'}
+[12.261239] (-) TimerEvent: {}
+[12.369201] (-) TimerEvent: {}
+[12.397125] (explore_lite) StdoutLine: {'line': b'-- Generating done\n'}
+[12.407493] (explore_lite) StdoutLine: {'line': b'-- Build files have been written to: /home/azzawillo/41068_ws/src/explore_lite/build/explore_lite\n'}
+[12.424035] (explore_lite) CommandEnded: {'returncode': 0}
+[12.425950] (explore_lite) JobProgress: {'identifier': 'explore_lite', 'progress': 'build'}
+[12.426246] (explore_lite) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/azzawillo/41068_ws/src/explore_lite/build/explore_lite', '--', '-j12', '-l12'], 'cwd': '/home/azzawillo/41068_ws/src/explore_lite/build/explore_lite', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'azzawillo'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/home/azzawillo/41068_ws/install/multirobot_map_merge/lib:/home/azzawillo/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib:/home/azzawillo/ros2_ws/install/a3_submission/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('HOME', '/home/azzawillo'), ('OLDPWD', '/home/azzawillo/41068_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/azzawillo/41068_ws/install:/home/azzawillo/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'azzawillo'), ('NAME', 'MSI'), ('WSL_INTEROP', '/run/WSL/8035_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/MATLAB/R2024b/runtime/win64:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Program Files/usbipd-win/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Azzaw/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Azzaw/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', '6c259d83-ef0f-4db2-b6ea-e24674b09732'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/azzawillo/41068_ws/install/multirobot_map_merge:/home/azzawillo/41068_ws/install/41068_ignition_bringup:/home/azzawillo/41068_ws/install/explore_lite:/home/azzawillo/ros2_ws/install/week11_quad:/home/azzawillo/ros2_ws/install/week10_quad:/home/azzawillo/ros2_ws/install/week10_laser:/home/azzawillo/ros2_ws/install/srv_client_checks:/home/azzawillo/ros2_ws/install/quiz5:/home/azzawillo/ros2_ws/install/grid_example:/home/azzawillo/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/azzawillo/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/azzawillo/ros2_ws/install/a3_support:/home/azzawillo/ros2_ws/install/a3_submission:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11/'), ('PWD', '/home/azzawillo/41068_ws/src/explore_lite/build/explore_lite'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/azzawillo/41068_ws/install/multirobot_map_merge:/home/azzawillo/41068_ws/install/41068_ignition_bringup:/home/azzawillo/41068_ws/install/explore_lite:/home/azzawillo/ros2_ws/install/week11_quad:/home/azzawillo/ros2_ws/install/week10_quad:/home/azzawillo/ros2_ws/install/week10_laser:/home/azzawillo/ros2_ws/install/srv_client_checks:/home/azzawillo/ros2_ws/install/quiz5:/home/azzawillo/ros2_ws/install/grid_example:/home/azzawillo/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/azzawillo/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/azzawillo/ros2_ws/install/a3_support:/home/azzawillo/ros2_ws/install/a3_submission:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[12.467301] (explore_lite) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[12.467518] (explore_lite) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/explore.dir/src/frontier_search.cpp.o\x1b[0m\n'}
+[12.467603] (explore_lite) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[12.468114] (explore_lite) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/explore.dir/src/explore.cpp.o\x1b[0m\n'}
+[12.468332] (explore_lite) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/explore.dir/src/costmap_client.cpp.o\x1b[0m\n'}
+[12.469419] (-) TimerEvent: {}
+[12.570069] (-) TimerEvent: {}
+[12.670641] (-) TimerEvent: {}
+[12.771143] (-) TimerEvent: {}
+[12.871599] (-) TimerEvent: {}
+[12.972203] (-) TimerEvent: {}
+[13.072801] (-) TimerEvent: {}
+[13.145811] (explore_lite) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[13.173202] (-) TimerEvent: {}
+[13.188929] (explore_lite) StdoutLine: {'line': b'[ 60%] Built target gtest_main\n'}
+[13.276358] (-) TimerEvent: {}
+[13.380163] (-) TimerEvent: {}
+[13.481325] (-) TimerEvent: {}
+[13.585862] (-) TimerEvent: {}
+[13.686891] (-) TimerEvent: {}
+[13.791625] (-) TimerEvent: {}
+[13.892249] (-) TimerEvent: {}
+[13.996857] (-) TimerEvent: {}
+[14.097693] (-) TimerEvent: {}
+[14.205963] (-) TimerEvent: {}
+[14.314857] (-) TimerEvent: {}
+[14.423711] (-) TimerEvent: {}
+[14.532636] (-) TimerEvent: {}
+[14.641639] (-) TimerEvent: {}
+[14.745430] (-) TimerEvent: {}
+[14.847266] (-) TimerEvent: {}
+[14.956363] (-) TimerEvent: {}
+[15.060278] (-) TimerEvent: {}
+[15.160983] (-) TimerEvent: {}
+[15.261957] (-) TimerEvent: {}
+[15.362722] (-) TimerEvent: {}
+[15.403683] (explore_lite) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[15.451814] (explore_lite) StdoutLine: {'line': b'[ 70%] Built target gtest\n'}
+[15.462961] (-) TimerEvent: {}
+[15.471325] (explore_lite) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/test_explore.dir/test/test_explore.cpp.o\x1b[0m\n'}
+[15.566831] (-) TimerEvent: {}
+[15.668669] (-) TimerEvent: {}
+[15.769486] (-) TimerEvent: {}
+[15.876225] (-) TimerEvent: {}
+[15.982760] (-) TimerEvent: {}
+[16.083604] (-) TimerEvent: {}
+[16.184208] (-) TimerEvent: {}
+[16.285326] (-) TimerEvent: {}
+[16.386342] (-) TimerEvent: {}
+[16.485048] (explore_lite) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX executable test_explore\x1b[0m\n'}
+[16.486564] (-) TimerEvent: {}
+[16.586943] (-) TimerEvent: {}
+[16.689728] (-) TimerEvent: {}
+[16.790541] (-) TimerEvent: {}
+[16.898533] (-) TimerEvent: {}
+[17.001901] (-) TimerEvent: {}
+[17.108478] (-) TimerEvent: {}
+[17.212299] (-) TimerEvent: {}
+[17.312855] (-) TimerEvent: {}
+[17.396884] (explore_lite) StdoutLine: {'line': b'[ 90%] Built target test_explore\n'}
+[17.413217] (-) TimerEvent: {}
+[17.516857] (-) TimerEvent: {}
+[17.619434] (-) TimerEvent: {}
+[17.723705] (-) TimerEvent: {}
+[17.828188] (-) TimerEvent: {}
+[17.929471] (-) TimerEvent: {}
+[18.033954] (-) TimerEvent: {}
+[18.134553] (-) TimerEvent: {}
+[18.236385] (-) TimerEvent: {}
+[18.336938] (-) TimerEvent: {}
+[18.439077] (-) TimerEvent: {}
+[18.542186] (-) TimerEvent: {}
+[18.646745] (-) TimerEvent: {}
+[18.751630] (-) TimerEvent: {}
+[18.852049] (-) TimerEvent: {}
+[18.956187] (-) TimerEvent: {}
+[19.058747] (-) TimerEvent: {}
+[19.162357] (-) TimerEvent: {}
+[19.263699] (-) TimerEvent: {}
+[19.364203] (-) TimerEvent: {}
+[19.467725] (-) TimerEvent: {}
+[19.569375] (-) TimerEvent: {}
+[19.672126] (-) TimerEvent: {}
+[19.776608] (-) TimerEvent: {}
+[19.880891] (-) TimerEvent: {}
+[19.985154] (-) TimerEvent: {}
+[20.088971] (-) TimerEvent: {}
+[20.193145] (-) TimerEvent: {}
+[20.297295] (-) TimerEvent: {}
+[20.401412] (-) TimerEvent: {}
+[20.503348] (-) TimerEvent: {}
+[20.605200] (-) TimerEvent: {}
+[20.709364] (-) TimerEvent: {}
+[20.813672] (-) TimerEvent: {}
+[20.917940] (-) TimerEvent: {}
+[21.022208] (-) TimerEvent: {}
+[21.126333] (-) TimerEvent: {}
+[21.226827] (-) TimerEvent: {}
+[21.327564] (-) TimerEvent: {}
+[21.428059] (-) TimerEvent: {}
+[21.529697] (-) TimerEvent: {}
+[21.635238] (-) TimerEvent: {}
+[21.743957] (-) TimerEvent: {}
+[21.844918] (-) TimerEvent: {}
+[21.953641] (-) TimerEvent: {}
+[22.054610] (-) TimerEvent: {}
+[22.156657] (-) TimerEvent: {}
+[22.257977] (-) TimerEvent: {}
+[22.359713] (-) TimerEvent: {}
+[22.460955] (-) TimerEvent: {}
+[22.562669] (-) TimerEvent: {}
+[22.664153] (-) TimerEvent: {}
+[22.767186] (-) TimerEvent: {}
+[22.872496] (-) TimerEvent: {}
+[22.981297] (-) TimerEvent: {}
+[23.090084] (-) TimerEvent: {}
+[23.158510] (explore_lite) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable explore\x1b[0m\n'}
+[23.190544] (-) TimerEvent: {}
+[23.295452] (-) TimerEvent: {}
+[23.396131] (-) TimerEvent: {}
+[23.497328] (-) TimerEvent: {}
+[23.598012] (-) TimerEvent: {}
+[23.701215] (-) TimerEvent: {}
+[23.805552] (-) TimerEvent: {}
+[23.908893] (-) TimerEvent: {}
+[24.013188] (-) TimerEvent: {}
+[24.117384] (-) TimerEvent: {}
+[24.221817] (-) TimerEvent: {}
+[24.326579] (-) TimerEvent: {}
+[24.427676] (-) TimerEvent: {}
+[24.532334] (-) TimerEvent: {}
+[24.636618] (-) TimerEvent: {}
+[24.740976] (-) TimerEvent: {}
+[24.843169] (-) TimerEvent: {}
+[24.845887] (explore_lite) StdoutLine: {'line': b'[100%] Built target explore\n'}
+[24.857640] (explore_lite) CommandEnded: {'returncode': 0}
+[24.858978] (explore_lite) JobProgress: {'identifier': 'explore_lite', 'progress': 'install'}
+[24.866573] (explore_lite) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/azzawillo/41068_ws/src/explore_lite/build/explore_lite'], 'cwd': '/home/azzawillo/41068_ws/src/explore_lite/build/explore_lite', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'azzawillo'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/home/azzawillo/41068_ws/install/multirobot_map_merge/lib:/home/azzawillo/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib:/home/azzawillo/ros2_ws/install/a3_submission/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('HOME', '/home/azzawillo'), ('OLDPWD', '/home/azzawillo/41068_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/azzawillo/41068_ws/install:/home/azzawillo/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'azzawillo'), ('NAME', 'MSI'), ('WSL_INTEROP', '/run/WSL/8035_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/MATLAB/R2024b/runtime/win64:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Program Files/usbipd-win/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Azzaw/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Azzaw/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', '6c259d83-ef0f-4db2-b6ea-e24674b09732'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/azzawillo/41068_ws/install/multirobot_map_merge:/home/azzawillo/41068_ws/install/41068_ignition_bringup:/home/azzawillo/41068_ws/install/explore_lite:/home/azzawillo/ros2_ws/install/week11_quad:/home/azzawillo/ros2_ws/install/week10_quad:/home/azzawillo/ros2_ws/install/week10_laser:/home/azzawillo/ros2_ws/install/srv_client_checks:/home/azzawillo/ros2_ws/install/quiz5:/home/azzawillo/ros2_ws/install/grid_example:/home/azzawillo/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/azzawillo/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/azzawillo/ros2_ws/install/a3_support:/home/azzawillo/ros2_ws/install/a3_submission:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11/'), ('PWD', '/home/azzawillo/41068_ws/src/explore_lite/build/explore_lite'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/azzawillo/41068_ws/install/multirobot_map_merge:/home/azzawillo/41068_ws/install/41068_ignition_bringup:/home/azzawillo/41068_ws/install/explore_lite:/home/azzawillo/ros2_ws/install/week11_quad:/home/azzawillo/ros2_ws/install/week10_quad:/home/azzawillo/ros2_ws/install/week10_laser:/home/azzawillo/ros2_ws/install/srv_client_checks:/home/azzawillo/ros2_ws/install/quiz5:/home/azzawillo/ros2_ws/install/grid_example:/home/azzawillo/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/azzawillo/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/azzawillo/ros2_ws/install/a3_support:/home/azzawillo/ros2_ws/install/a3_submission:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[24.871854] (explore_lite) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[24.872269] (explore_lite) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[24.872942] (explore_lite) StdoutLine: {'line': b'-- Symlinking: /home/azzawillo/41068_ws/src/explore_lite/install/explore_lite/include/explore//costmap_client.h\n'}
+[24.880280] (explore_lite) StdoutLine: {'line': b'-- Symlinking: /home/azzawillo/41068_ws/src/explore_lite/install/explore_lite/include/explore//costmap_tools.h\n'}
+[24.887087] (explore_lite) StdoutLine: {'line': b'-- Symlinking: /home/azzawillo/41068_ws/src/explore_lite/install/explore_lite/include/explore//explore.h\n'}
+[24.894028] (explore_lite) StdoutLine: {'line': b'-- Symlinking: /home/azzawillo/41068_ws/src/explore_lite/install/explore_lite/include/explore//frontier_search.h\n'}
+[24.902144] (explore_lite) StdoutLine: {'line': b'-- Symlinking: /home/azzawillo/41068_ws/src/explore_lite/install/explore_lite/share/explore_lite/config/params.yaml\n'}
+[24.909851] (explore_lite) StdoutLine: {'line': b'-- Symlinking: /home/azzawillo/41068_ws/src/explore_lite/install/explore_lite/share/explore_lite/config/params_costmap.yaml\n'}
+[24.917155] (explore_lite) StdoutLine: {'line': b'-- Symlinking: /home/azzawillo/41068_ws/src/explore_lite/install/explore_lite/share/explore_lite/launch/explore.launch.py\n'}
+[24.925090] (explore_lite) StdoutLine: {'line': b'-- Symlinking: /home/azzawillo/41068_ws/src/explore_lite/install/explore_lite/lib/explore_lite/explore\n'}
+[24.932101] (explore_lite) StdoutLine: {'line': b'-- Symlinking: /home/azzawillo/41068_ws/src/explore_lite/install/explore_lite/share/ament_index/resource_index/package_run_dependencies/explore_lite\n'}
+[24.939389] (explore_lite) StdoutLine: {'line': b'-- Symlinking: /home/azzawillo/41068_ws/src/explore_lite/install/explore_lite/share/ament_index/resource_index/parent_prefix_path/explore_lite\n'}
+[24.943575] (-) TimerEvent: {}
+[24.946906] (explore_lite) StdoutLine: {'line': b'-- Symlinking: /home/azzawillo/41068_ws/src/explore_lite/install/explore_lite/share/explore_lite/environment/ament_prefix_path.sh\n'}
+[24.953881] (explore_lite) StdoutLine: {'line': b'-- Symlinking: /home/azzawillo/41068_ws/src/explore_lite/install/explore_lite/share/explore_lite/environment/ament_prefix_path.dsv\n'}
+[24.961394] (explore_lite) StdoutLine: {'line': b'-- Symlinking: /home/azzawillo/41068_ws/src/explore_lite/install/explore_lite/share/explore_lite/environment/path.sh\n'}
+[24.968118] (explore_lite) StdoutLine: {'line': b'-- Symlinking: /home/azzawillo/41068_ws/src/explore_lite/install/explore_lite/share/explore_lite/environment/path.dsv\n'}
+[24.975088] (explore_lite) StdoutLine: {'line': b'-- Symlinking: /home/azzawillo/41068_ws/src/explore_lite/install/explore_lite/share/explore_lite/local_setup.bash\n'}
+[24.982172] (explore_lite) StdoutLine: {'line': b'-- Symlinking: /home/azzawillo/41068_ws/src/explore_lite/install/explore_lite/share/explore_lite/local_setup.sh\n'}
+[24.989623] (explore_lite) StdoutLine: {'line': b'-- Symlinking: /home/azzawillo/41068_ws/src/explore_lite/install/explore_lite/share/explore_lite/local_setup.zsh\n'}
+[24.996800] (explore_lite) StdoutLine: {'line': b'-- Symlinking: /home/azzawillo/41068_ws/src/explore_lite/install/explore_lite/share/explore_lite/local_setup.dsv\n'}
+[25.004200] (explore_lite) StdoutLine: {'line': b'-- Symlinking: /home/azzawillo/41068_ws/src/explore_lite/install/explore_lite/share/explore_lite/package.dsv\n'}
+[25.011675] (explore_lite) StdoutLine: {'line': b'-- Symlinking: /home/azzawillo/41068_ws/src/explore_lite/install/explore_lite/share/ament_index/resource_index/packages/explore_lite\n'}
+[25.018956] (explore_lite) StdoutLine: {'line': b'-- Symlinking: /home/azzawillo/41068_ws/src/explore_lite/install/explore_lite/share/explore_lite/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[25.026094] (explore_lite) StdoutLine: {'line': b'-- Symlinking: /home/azzawillo/41068_ws/src/explore_lite/install/explore_lite/share/explore_lite/cmake/explore_liteConfig.cmake\n'}
+[25.033575] (explore_lite) StdoutLine: {'line': b'-- Symlinking: /home/azzawillo/41068_ws/src/explore_lite/install/explore_lite/share/explore_lite/cmake/explore_liteConfig-version.cmake\n'}
+[25.041317] (explore_lite) StdoutLine: {'line': b'-- Symlinking: /home/azzawillo/41068_ws/src/explore_lite/install/explore_lite/share/explore_lite/package.xml\n'}
+[25.044093] (-) TimerEvent: {}
+[25.050270] (explore_lite) CommandEnded: {'returncode': 0}
+[25.075353] (explore_lite) JobEnded: {'identifier': 'explore_lite', 'rc': 0}
+[25.076122] (-) EventReactorShutdown: {}

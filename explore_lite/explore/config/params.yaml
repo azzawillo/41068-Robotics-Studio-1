@@ -1,0 +1,23 @@
+explore_node:
+  ros__parameters:
+    # frames
+    robot_base_frame: base_link
+    transform_tolerance: 0.3
+
+    # use the NAV2 GLOBAL COSTMAP topics (not /map)
+    costmap_topic: /global_costmap/costmap
+    costmap_updates_topic: /global_costmap/costmap_updates
+
+    # visualization
+    visualize: true
+
+    # frontier & planning tuning
+    planner_frequency: 0.15          # try 0.3–0.5 if you want quicker updates
+    progress_timeout: 30.0
+    potential_scale: 3.0
+    orientation_scale: 0.0
+    gain_scale: 1.0
+    min_frontier_size: 0.5           # meters of connected frontier
+
+    # optional: return to the pose at startup when exploration finishes
+    return_to_init: true
