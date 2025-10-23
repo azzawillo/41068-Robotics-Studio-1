@@ -4,3 +4,11 @@
 
 # Windows ADS noise
 *Zone.Identifier*
+
+# Windows ADS noise
+*Zone.Identifier*
+
+# Colcon/ROS2 build artifacts
+build/
+install/
+log/
