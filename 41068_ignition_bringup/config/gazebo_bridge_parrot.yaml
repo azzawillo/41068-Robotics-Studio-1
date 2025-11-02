@@ -1,57 +1,64 @@
 # ROS⇄GZ bridges for the parrot drone (ROS namespaced to /parrot/*)
 
-# Joint states
+# Joint states (optional – can omit if not needed)
 - ros_topic_name: "/parrot/joint_states"
-  gz_topic_name: "/model/parrot/joint_states"
-  ros_type_name: "sensor_msgs/msg/JointState"
-  gz_type_name: "gz.msgs.Model"
-  direction: GZ_TO_ROS
+  gz_topic_name:   "/model/parrot/joint_states"
+  ros_type_name:   "sensor_msgs/msg/JointState"
+  gz_type_name:    "gz.msgs.Model"
+  direction:       GZ_TO_ROS
 
 # Odometry
 - ros_topic_name: "/parrot/odometry"
-  gz_topic_name: "/model/parrot/odometry"
-  ros_type_name: "nav_msgs/msg/Odometry"
-  gz_type_name: "gz.msgs.Odometry"
-  direction: GZ_TO_ROS
+  gz_topic_name:  "/model/parrot/odometry"
+  ros_type_name:  "nav_msgs/msg/Odometry"
+  gz_type_name:   "gz.msgs.Odometry"
+  direction:      GZ_TO_ROS
 
 # IMU
 - ros_topic_name: "/parrot/imu"
-  gz_topic_name: "/model/parrot/imu"
-  ros_type_name: "sensor_msgs/msg/Imu"
-  gz_type_name: "gz.msgs.IMU"
-  direction: GZ_TO_ROS
+  gz_topic_name:  "/model/parrot/imu"
+  ros_type_name:  "sensor_msgs/msg/Imu"
+  gz_type_name:   "gz.msgs.IMU"
+  direction:      GZ_TO_ROS
 
-# LiDAR
+# LiDAR (2D LaserScan)
 - ros_topic_name: "/parrot/scan"
-  gz_topic_name: "/model/parrot/scan"
-  ros_type_name: "sensor_msgs/msg/LaserScan"
-  gz_type_name: "gz.msgs.LaserScan"
-  direction: GZ_TO_ROS
+  gz_topic_name:  "/model/parrot/scan"
+  ros_type_name:  "sensor_msgs/msg/LaserScan"
+  gz_type_name:   "gz.msgs.LaserScan"
+  direction:      GZ_TO_ROS
 
 # RGB camera image
 - ros_topic_name: "/parrot/camera/image"
-  gz_topic_name: "/model/parrot/camera/image"
-  ros_type_name: "sensor_msgs/msg/Image"
-  gz_type_name: "gz.msgs.Image"
-  direction: GZ_TO_ROS
+  gz_topic_name:  "/model/parrot/camera/image"
+  ros_type_name:  "sensor_msgs/msg/Image"
+  gz_type_name:   "gz.msgs.Image"
+  direction:      GZ_TO_ROS
 
-# Depth image
+# Camera info
+- ros_topic_name: "/parrot/camera/camera_info"
+  gz_topic_name:  "/model/parrot/camera/camera_info"
+  ros_type_name:  "sensor_msgs/msg/CameraInfo"
+  gz_type_name:   "gz.msgs.CameraInfo"
+  direction:      GZ_TO_ROS
+
+# Depth image (optional)
 - ros_topic_name: "/parrot/camera/depth_image"
-  gz_topic_name: "/model/parrot/camera/depth_image"
-  ros_type_name: "sensor_msgs/msg/Image"
-  gz_type_name: "gz.msgs.Image"
-  direction: GZ_TO_ROS
+  gz_topic_name:  "/model/parrot/camera/depth_image"
+  ros_type_name:  "sensor_msgs/msg/Image"
+  gz_type_name:   "gz.msgs.Image"
+  direction:      GZ_TO_ROS
 
-# Point cloud
+# Point cloud (optional, if your camera/lidar outputs it)
 - ros_topic_name: "/parrot/camera/points"
-  gz_topic_name: "/model/parrot/camera/points"
-  ros_type_name: "sensor_msgs/msg/PointCloud2"
-  gz_type_name: "gz.msgs.PointCloudPacked"
-  direction: GZ_TO_ROS
+  gz_topic_name:  "/model/parrot/camera/points"
+  ros_type_name:  "sensor_msgs/msg/PointCloud2"
+  gz_type_name:   "gz.msgs.PointCloudPacked"
+  direction:      GZ_TO_ROS
 
-# Velocity command (critical for movement)
+# Velocity command
 - ros_topic_name: "/parrot/cmd_vel"
-  gz_topic_name: "/model/parrot/cmd_vel"
-  ros_type_name: "geometry_msgs/msg/Twist"
-  gz_type_name: "gz.msgs.Twist"
-  direction: ROS_TO_GZ
+  gz_topic_name:  "/model/parrot/cmd_vel"
+  ros_type_name:  "geometry_msgs/msg/Twist"
+  gz_type_name:   "gz.msgs.Twist"
+  direction:      ROS_TO_GZ

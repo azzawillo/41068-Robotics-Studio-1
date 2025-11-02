@@ -12,7 +12,7 @@ find_package(ros_ign_interfaces REQUIRED)
 
 # scripts
 install(PROGRAMS
-  scripts/one_goal_explorer.py scripts/pose_to_nav2_action.py
+  scripts/pose_to_nav2_action.py scripts/parrot_lawnmower.py scripts/parrot_veg_node.py scripts/coverage_waypoints.py
   DESTINATION lib/${PROJECT_NAME}
 )
 
