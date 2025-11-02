@@ -44,8 +44,10 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/41068_ignition_bringup" TYPE PROGRAM FILES
-    "/home/azzawillo/41068_ws/src/41068_ignition_bringup/scripts/one_goal_explorer.py"
     "/home/azzawillo/41068_ws/src/41068_ignition_bringup/scripts/pose_to_nav2_action.py"
+    "/home/azzawillo/41068_ws/src/41068_ignition_bringup/scripts/parrot_lawnmower.py"
+    "/home/azzawillo/41068_ws/src/41068_ignition_bringup/scripts/parrot_veg_node.py"
+    "/home/azzawillo/41068_ws/src/41068_ignition_bringup/scripts/coverage_waypoints.py"
     )
 endif()
 
